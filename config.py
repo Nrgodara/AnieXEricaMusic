@@ -35,8 +35,8 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
-STRING1 = getenv("STRING_SESSION", "1BVtsOIwBu2X7acNGcO6QY9jeoTCIhU4LLgmLcLx2uXWXltiem0eOE8o1lhAJJ-Sk2Eh_zt76IPIGb7vIaSR2AoE7lapXOmOtN67Izka_WDqsKbcMXrkQIa0bUBI5C_fjHC1CI7RCGCHjH0wkjCl8MG4hycDtb-ZUQmeY39laZWp_I7XE2Sfuta3hG7DshLEQ5DwF9JNsU5oS6swNOioPBm-dtcJqQhse5m7JknapdsBKgUq-cNYIEN71xJOmY1gtENI3umEtwd7bOnWbpfmrExdQ_GtTKmBd76kAR3roYIY36r5Qkz3oF0OvfuJDX1oEpOvxub9oQ5wmA71ZeyOOpKgd2-vJ1w8=")
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 524288000000))
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -50,7 +50,7 @@ autoclean = []
 confirmer = {}
 AMBOT = [
     "🔎",
-    "🔍",
+    "🎶",
     "🧪",
     "ᴘʟꜱ ᴡᴀɪᴛ..",
     "ᴘʀᴏᴄᴇꜱꜱɪɴɢ..",
