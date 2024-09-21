@@ -26,4 +26,4 @@ youtube-search
 youtube-search-python
 telegraph
 pyromod
-node==15.0.0
+node==1.2.2
