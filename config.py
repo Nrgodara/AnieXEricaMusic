@@ -1,4 +1,4 @@
-import re
+jimport re
 from os import getenv
 
 from dotenv import load_dotenv
@@ -16,7 +16,7 @@ BOTADDLOGS = int(getenv("BOTADDLOGS", "-1002082157755")) # LOGGER_ID Id Also Use
 GBAN_LOGS = int(getenv("GBAN_LOGS", "-1002082157755"))
 GCAST_USERS = list(map(int, getenv("GCAST_USERS", "2105971379 5916859256").split()))
 OWNER_ID = int(getenv("OWNER_ID", 2105971379))
-OWNER = int(getenv("OWNER", 1280494242))
+OWNERS = list(map(int, getenv("OWNERS", "1280494242").split()))
 OWNER_USERNAME = getenv("OWNER_USERNAME","fake_one")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
