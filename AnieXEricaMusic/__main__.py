@@ -38,7 +38,7 @@ async def init():
         importlib.import_module("AnieXEricaMusic.plugins" + all_module)
     LOGGER("AnieXEricaMusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
-    await AMBOT.start()
+   # await AMBOT.start()
     try:
         await AMBOT.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
